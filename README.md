@@ -45,3 +45,5 @@ Making a fundamental Ionic 4 app is much simple. Expecting you've got all fundam
 ```javascript
 $ ionic start ionic-paypal blank
 ```
+
+This creates your app with title `ionic-paypal` and blank template.
