@@ -26,7 +26,7 @@ PayPal can be coordinates in websites as well as portable apps. There are divers
 
 We are going learn how to actualize Paypal installments for an Ionic 4 versatile app. We are able break down the post in these steps:
 
-**Step 1** —  Creating an Ionic 4 app. We are going utilize the Ionic 4 clear starter.
+**Step 1 ** —  Creating an Ionic 4 app. We are going utilize the Ionic 4 clear starter.
 
 **Step 2**  —  Make a PayPal designer account and arrange it for app and PWA integration.
 
@@ -37,3 +37,11 @@ We are going learn how to actualize Paypal installments for an Ionic 4 versatile
 **Step 5**  —  Configure PayPal web integration with Javascript.
 
 **Step 6**  —  Run the PWA on `ionic serve` to test web payments.
+
+## Step 1 — Create a basic Ionic 4 app
+
+Making a fundamental Ionic 4 app is much simple. Expecting you've got all fundamental necessities introduced in your framework, run
+
+```javascript
+$ ionic start ionic4-paypal blank
+```
