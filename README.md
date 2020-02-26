@@ -26,7 +26,7 @@ PayPal can be coordinates in websites as well as portable apps. There are divers
 
 We are going learn how to actualize Paypal installments for an Ionic 4 versatile app. We are able break down the post in these steps:
 
-**Step 1 ** —  Creating an Ionic 4 app. We are going utilize the Ionic 4 clear starter.
+**Step 1** —  Creating an Ionic 4 app. We are going utilize the Ionic 4 clear starter.
 
 **Step 2**  —  Make a PayPal designer account and arrange it for app and PWA integration.
 
