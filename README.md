@@ -38,7 +38,7 @@ We are going learn how to actualize Paypal installments for an Ionic 4 versatile
 
 **Step 6**  —  Run the PWA on `ionic serve` to test web payments.
 
-## Step 1 — Create a basic Ionic 4 app
+## Step 1  —  Create a basic Ionic 4 app
 
 Making a fundamental Ionic 4 app is much simple. Expecting you've got all fundamental necessities introduced in your framework, run
 
