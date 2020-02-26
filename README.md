@@ -1,4 +1,4 @@
-# Ionic 4 PayPal payment integration — for Apps and PWA
+# Ionic 4 PayPal Payment Integration — for Apps and PWA
 Ionic 4 with Paypal integration. App and PWA
 
 ### Table of Contents
