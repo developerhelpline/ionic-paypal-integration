@@ -1,9 +1,10 @@
 # Ionic 4 PayPal payment integration — for Apps and PWA
 Ionic 4 with Paypal integration. App and PWA
 
-**Table of Contents**
-
-[TOCM]
+### Table of Contents
+- What is Paypal?
+- What is Ionic 4?
+- Ionic 4 and Payment Gateways
 
 ### What is Paypal?
 
@@ -20,3 +21,19 @@ So, in other words — If you make Local apps in Android, you code in Java. 
 Ionic 4 can make a wide assortment of apps, and subsequently a wide assortment of installment portals can be actualized in Ionic 4 apps. The well known ones are PayPal, Stripe, Braintree, in-app buy etc.
 
 PayPal can be coordinates in websites as well as portable apps. There are diverse ways of integration of PayPal SDK. In this web journal we’ll learn how to coordinated PayPal installment portal in Ionic 4 apps and Ionic 4 PWA.
+
+[![Ionic 4 PayPal payment integration — for Apps and PWA](https://www.developerhelpline.com/wp-includes/images/ionic-paypal.jpeg "Ionic 4 PayPal payment integration — for Apps and PWA")](https://www.developerhelpline.com/wp-includes/images/ionic-paypal.jpeg "Ionic 4 PayPal payment integration — for Apps and PWA")
+
+We are going learn how to actualize Paypal installments for an Ionic 4 versatile app. We are able break down the post in these steps:
+
+**Step 1** —  Creating an Ionic 4 app. We are going utilize the Ionic 4 clear starter.
+
+**Step 2**  —  Make a PayPal designer account and arrange it for app and PWA integration.
+
+**Step 3**  —  Utilize Ionic Native plugin for PayPal to empower installment in versatile apps.
+
+**Step 4**  —  Build the app on android to test app payments.
+
+**Step 5**  —  Configure PayPal web integration with Javascript.
+
+**Step 6**  —  Run the PWA on `ionic serve` to test web payments.
