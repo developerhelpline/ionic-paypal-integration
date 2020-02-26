@@ -43,5 +43,5 @@ We are going learn how to actualize Paypal installments for an Ionic 4 versatile
 Making a fundamental Ionic 4 app is much simple. Expecting you've got all fundamental necessities introduced in your framework, run
 
 ```javascript
-$ ionic start ionic4-paypal blank
+$ ionic start ionic-paypal blank
 ```
