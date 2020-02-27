@@ -43,7 +43,7 @@ We are going learn how to actualize Paypal installments for an Ionic 4 versatile
 Making a fundamental Ionic 4 app is much simple. Expecting you've got all fundamental necessities introduced in your framework, run
 
 ```javascript
-$ ionic start ionic-paypal blank
+$ ionic start ionic-paypal-integration blank
 ```
 
-This creates your app with title `ionic-paypal` and blank template.
+This creates your app with title `ionic-paypal-integration` and blank template.
