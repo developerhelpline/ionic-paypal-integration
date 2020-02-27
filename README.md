@@ -62,7 +62,7 @@ To obtain your Sandbox credentials follow the steps below:
 
 2. Go to [My Apps & Credentials](https://developer.paypal.com/developer/applications/ "My Apps & Credentials") and generate a [v.zero](https://developer.paypal.com/docs/bt-vzero-overview/ "v.zero") SDK sandbox credential and link it to your sandbox test account. You need a Sandbox account to make payments in Sandbox mode of your app. In other words, when your app's PayPal SDK is running in Sandbox mode, you cannot make payments with an "actual" PayPal account, you need a Sandbox account.
 
-3. Go to [My Apps & Credentials](https://developer.paypal.com/developer/applications/ "My Apps & Credentials")s and create an app. This is the app associated with your payments. A PayPal account can associate multiple such apps with it (you can redirect money from multiple mobile or web-apps in a single PayPal account).
+3. Go to [My Apps & Credentials](https://developer.paypal.com/developer/applications/ "My Apps & Credentials") and create an app. This is the app associated with your payments. A PayPal account can associate multiple such apps with it (you can redirect money from multiple mobile or web-apps in a single PayPal account).
 
 [![Create new app in PayPal account](https://www.developerhelpline.com/wp-includes/images/paypal-my-accounts.jpg "Create new app in PayPal account")](https://www.developerhelpline.com/wp-includes/images/paypal-my-accounts.jpg "Create new app in PayPal account")
 
