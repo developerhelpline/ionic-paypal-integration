@@ -1,0 +1,54 @@
+<ion-content [fullscreen]="true">
+  <ion-grid class="ion-no-padding">
+    <ion-row class="ion-no-padding">
+      <ion-col class="ion-margin-top ion-padding ion-text-center">
+        Utilize this Pay button in your app's installment page with the connected rationale.
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <ion-card class="welcome-card ion-margin">
+    <ion-img src="./assets/paypal.jpg"></ion-img>
+    <ion-card-header>
+      <ion-card-subtitle>Get Started</ion-card-subtitle>
+      <ion-card-title><b>PayPal Sample</b></ion-card-title>
+      <ion-row>
+        <ion-col style="padding-left: 0;">Total Payment</ion-col>
+        <ion-col class="ion-text-end">
+          {{currencyIcon}} {{paymentAmount}}
+        </ion-col>
+      </ion-row>
+    </ion-card-header>
+    <ion-card-content class="ion-no-padding">
+      <ion-button expand="full" color="success" class="ion-no-margin" (click)="payWithPaypal()">Pay with PayPal
+      </ion-button>
+    </ion-card-content>
+  </ion-card>
+
+  <div *ngIf="responseData" class="ion-margin response ion-padding">
+    <code>{{responseData}}
+    </code>
+  </div>
+
+  <ion-list lines="none">
+    <ion-list-header>
+      <ion-label>Resources</ion-label>
+    </ion-list-header>
+    <ion-item href="https://ionicframework.com/docs/native/paypal" detail="true">
+      <ion-icon slot="start" color="dark" name="book-outline"></ion-icon>
+      <ion-label>Paypal Plugin Documentation</ion-label>
+    </ion-item>
+    <ion-item href="https://github.com/paypal/PayPal-Cordova-Plugin" detail="true">
+      <ion-icon slot="start" color="dark" name="build-outline"></ion-icon>
+      <ion-label>Paypal Plugin Repository</ion-label>
+    </ion-item>
+    <ion-item href="https://medium.com/enappd/ionic-4-paypal-payment-integration-for-apps-and-pwa-680b3f7ddb2f"
+      detail="true">
+      <ion-icon slot="start" color="dark" name="flash-outline"></ion-icon>
+      <ion-label>Ionic 4 PayPal Payment Integration</ion-label>
+    </ion-item>
+    <ion-item href="https://www.developerhelpline.com/" detail="true">
+      <ion-icon slot="start" src="./assets/developer-helpline-256.svg"></ion-icon>
+      <ion-label>More on Developer Helpline</ion-label>
+    </ion-item>
+  </ion-list>
+</ion-content>

@@ -1,0 +1,7 @@
+{
+  "name": "ionic-paypal-integration",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
