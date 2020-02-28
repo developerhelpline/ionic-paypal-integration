@@ -22,7 +22,7 @@ Ionic 4 can make a wide assortment of apps, and subsequently a wide assortment o
 
 PayPal can be coordinates in websites as well as portable apps. There are diverse ways of integration of PayPal SDK. In this web journal we’ll learn how to coordinated PayPal installment portal in Ionic 4 apps and Ionic 4 PWA.
 
-[![Ionic 4 PayPal payment integration — for Apps and PWA](https://www.developerhelpline.com/wp-includes/images/ionic-paypal.jpeg "Ionic 4 PayPal payment integration — for Apps and PWA")](https://www.developerhelpline.com/wp-includes/images/ionic-paypal.jpeg "Ionic 4 PayPal payment integration — for Apps and PWA")
+[![Ionic 4 PayPal payment integration — for Apps](https://www.developerhelpline.com/wp-includes/images/ionic-paypal.jpeg "Ionic 4 PayPal payment integration — for Apps")](https://www.developerhelpline.com/wp-includes/images/ionic-paypal.jpeg "Ionic 4 PayPal payment integration — for Apps")
 
 We are going learn how to actualize Paypal installments for an Ionic 4 versatile app. We are able break down the post in these steps:
 
