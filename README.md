@@ -22,7 +22,7 @@ Ionic 4 can make a wide assortment of apps, and subsequently a wide assortment o
 
 PayPal can be coordinates in websites as well as portable apps. There are diverse ways of integration of PayPal SDK. In this web journal we’ll learn how to coordinated PayPal installment portal in Ionic 4 apps and Ionic 4 PWA.
 
-[![Ionic 4 PayPal payment integration — for Apps](https://www.developerhelpline.com/wp-includes/images/ionic-paypal.jpeg "Ionic 4 PayPal payment integration — for Apps")](https://www.developerhelpline.com/wp-includes/images/ionic-paypal.jpeg "Ionic 4 PayPal payment integration — for Apps")
+[![Ionic 4 PayPal payment integration — for Apps](https://www.developerhelpline.com/wp-includes/images/ionic-paypal-1.jpeg "Ionic 4 PayPal payment integration — for Apps")](https://www.developerhelpline.com/wp-includes/images/ionic-paypal-1.jpeg "Ionic 4 PayPal payment integration — for Apps")
 
 We are going learn how to actualize Paypal installments for an Ionic 4 versatile app. We are able break down the post in these steps:
 
@@ -50,7 +50,7 @@ This creates your app with title `ionic-paypal-integration` and blank template.
 
 With minor alterations, my homepage looks like this.
 
-[![Paypal payment homepage](https://www.developerhelpline.com/wp-includes/images/paypal-payment-homepage.jpg "Paypal payment homepage")](https://www.developerhelpline.com/wp-includes/images/paypal-payment-homepage.jpg "Paypal payment homepage")
+[![Paypal payment homepage](https://www.developerhelpline.com/wp-includes/images/paypal-payment-homepage-1.jpg "Paypal payment homepage")](https://www.developerhelpline.com/wp-includes/images/paypal-payment-homepage-1.jpg "Paypal payment homepage")
 
 ## Step 2 — Configure a PayPal developer account
 
@@ -64,11 +64,11 @@ To obtain your Sandbox credentials follow the steps below:
 
 3. Go to [My Apps & Credentials](https://developer.paypal.com/developer/applications/ "My Apps & Credentials") and create an app. This is the app associated with your payments. A PayPal account can associate multiple such apps with it (you can redirect money from multiple mobile or web-apps in a single PayPal account).
 
-[![Create new app in PayPal account](https://www.developerhelpline.com/wp-includes/images/paypal-my-accounts.jpg "Create new app in PayPal account")](https://www.developerhelpline.com/wp-includes/images/paypal-my-accounts.jpg "Create new app in PayPal account")
+[![Create new app in PayPal account](https://www.developerhelpline.com/wp-includes/images/paypal-my-accounts-1.jpg "Create new app in PayPal account")](https://www.developerhelpline.com/wp-includes/images/paypal-my-accounts-1.jpg "Create new app in PayPal account")
 
 Also note down your Client ID from the app details. This is mostly what you need to integrate PayPal in your app and test payments.
 
-[![App details contain your Sandbox and Live client ID and secrets](https://www.developerhelpline.com/wp-includes/images/get-client-id.jpg "App details contain your Sandbox and Live client ID and secrets")](https://www.developerhelpline.com/wp-includes/images/get-client-id.jpg "App details contain your Sandbox and Live client ID and secrets")
+[![App details contain your Sandbox and Live client ID and secrets](https://www.developerhelpline.com/wp-includes/images/get-client-id-1.jpg "App details contain your Sandbox and Live client ID and secrets")](https://www.developerhelpline.com/wp-includes/images/get-client-id-1.jpg "App details contain your Sandbox and Live client ID and secrets")
 
 ## Step 3 — Enable PayPal payments in mobile app
 
@@ -88,11 +88,11 @@ This will install PayPal plugin. Import **PayPal** into your component using
 import { PayPal, PayPalPayment, PayPalConfiguration } from '@ionic-native/paypal/ngx';
 ```
 
-[![Import PayPal in home.page.ts file](https://www.developerhelpline.com/wp-includes/images/Import-PayPal-in-homepage-ts-file.jpg "Import PayPal in home.page.ts file")](https://www.developerhelpline.com/wp-includes/images/Import-PayPal-in-homepage-ts-file.jpg "Import PayPal in home.page.ts file")
+[![Import PayPal in home.page.ts file](https://www.developerhelpline.com/wp-includes/images/Import-PayPal-in-homepage-ts-file-1.jpg "Import PayPal in home.page.ts file")](https://www.developerhelpline.com/wp-includes/images/Import-PayPal-in-homepage-ts-file-1.jpg "Import PayPal in home.page.ts file")
 
 You will also need to include `PayPal` in the list of providers in your `app.module.ts` file.
 
-[![Import PayPal in your app.module.ts](https://www.developerhelpline.com/wp-includes/images/Import-PayPal-in-your-app-module-ts-file.jpg "Import PayPal in your app.module.ts")](https://www.developerhelpline.com/wp-includes/images/Import-PayPal-in-your-app-module-ts-file.jpg "Import PayPal in your app.module.ts")
+[![Import PayPal in your app.module.ts](https://www.developerhelpline.com/wp-includes/images/Import-PayPal-in-your-app-module-ts-file-1.jpg "Import PayPal in your app.module.ts")](https://www.developerhelpline.com/wp-includes/images/Import-PayPal-in-your-app-module-ts-file-1.jpg "Import PayPal in your app.module.ts")
 
 ### PayPal payment function
 
@@ -171,7 +171,7 @@ Notice the `PayPalEnvironmentSandbox` parameter. This is used for Sandbox enviro
 
 Also notice, for the sake of a sample, we have taken `PaymentAmount` and `currency` as static in the logic, but these can be easily dynamic as per your app's requirement.
 
-[![Static amount and currency for sample purpose](https://www.developerhelpline.com/wp-includes/images/Static-amount-and-currency-for-sample-purpose.jpg "Static amount and currency for sample purpose")](https://www.developerhelpline.com/wp-includes/images/Static-amount-and-currency-for-sample-purpose.jpg "Static amount and currency for sample purpose")
+[![Static amount and currency for sample purpose](https://www.developerhelpline.com/wp-includes/images/Static-amount-and-currency-for-sample-purpose-1.jpg "Static amount and currency for sample purpose")](https://www.developerhelpline.com/wp-includes/images/Static-amount-and-currency-for-sample-purpose-1.jpg "Static amount and currency for sample purpose")
 
 Once payment is done, PayPal SDK will return a response. A sample sandbox response is shown in the gist above. One can use this response to show appropriate *Toast* or *Alert* to app users.
 
@@ -243,7 +243,7 @@ $ ionic cordova run android
 
 The final command will run the app on either default emulator, or an android device attached to your system. Once you click the **Pay with PayPal** button, you will see the PayPal payment screens
 
-[![PayPal payment options screen](https://www.developerhelpline.com/wp-includes/images/PayPal-payment-options-screen.jpg "PayPal payment options screen")](https://www.developerhelpline.com/wp-includes/images/PayPal-payment-options-screen.jpg "PayPal payment options screen")
+[![PayPal payment options screen](https://www.developerhelpline.com/wp-includes/images/PayPal-payment-options-screen-1.jpg "PayPal payment options screen")](https://www.developerhelpline.com/wp-includes/images/PayPal-payment-options-screen-1.jpg "PayPal payment options screen")
 
 You can choose to
 - **Pay with PayPal ** —  using your PayPal account, OR
@@ -253,11 +253,11 @@ You can choose to
 
 You will need to login to your **Sandbox Account** to make a payment (because, remember, you are in a sandbox environment)
 
-[![Sign in to your sandbox account to make test payments](https://www.developerhelpline.com/wp-includes/images/Sign-in-to-your-sandbox-account-to-make-test-payments.jpg "Sign in to your sandbox account to make test payments")](https://www.developerhelpline.com/wp-includes/images/Sign-in-to-your-sandbox-account-to-make-test-payments.jpg "Sign in to your sandbox account to make test payments")
+[![Sign in to your sandbox account to make test payments](https://www.developerhelpline.com/wp-includes/images/Sign-in-to-your-sandbox-account-to-make-test-payments-1.jpg "Sign in to your sandbox account to make test payments")](https://www.developerhelpline.com/wp-includes/images/Sign-in-to-your-sandbox-account-to-make-test-payments-1.jpg "Sign in to your sandbox account to make test payments")
 
 Once you are logged in, you’ll see the checkout options
 
-[![Payment options in your sandbox account](https://www.developerhelpline.com/wp-includes/images/Payment-options-in-your-sandbox-account.jpg "Payment options in your sandbox account")](https://www.developerhelpline.com/wp-includes/images/Payment-options-in-your-sandbox-account.jpg "Payment options in your sandbox account")
+[![Payment options in your sandbox account](https://www.developerhelpline.com/wp-includes/images/Payment-options-in-your-sandbox-account-1.jpg "Payment options in your sandbox account")](https://www.developerhelpline.com/wp-includes/images/Payment-options-in-your-sandbox-account-1.jpg "Payment options in your sandbox account")
 
 Select one option, and pay for the dummy amount.
 
@@ -269,10 +269,10 @@ In this case, your app's camera will open up to scan your card.
 
 Once it is done scanning, it will confirm the card number, expiry date and ask for your CVV details etc. Lastly, it’ll show you a confirmation screen, and you proceed to pay the amount.
 
-[![Confirm payment with PayPal card payment](https://www.developerhelpline.com/wp-includes/images/Confirm-payment-with-PayPal-card-payment.jpg "Confirm payment with PayPal card payment")](https://www.developerhelpline.com/wp-includes/images/Confirm-payment-with-PayPal-card-payment.jpg "Confirm payment with PayPal card payment")
+[![Confirm payment with PayPal card payment](https://www.developerhelpline.com/wp-includes/images/Confirm-payment-with-PayPal-card-payment-1.jpg "Confirm payment with PayPal card payment")](https://www.developerhelpline.com/wp-includes/images/Confirm-payment-with-PayPal-card-payment-1.jpg "Confirm payment with PayPal card payment")
 
 In both payment cases, you will receive a successful payment response similar to the one shown earlier in **Step 3**, or like the following
 
-[![Payment Response](https://www.developerhelpline.com/wp-includes/images/payment-response.jpg "Payment Response")](https://www.developerhelpline.com/wp-includes/images/payment-response.jpg "Payment Response")
+[![Payment Response](https://www.developerhelpline.com/wp-includes/images/payment-response-1.jpg "Payment Response")](https://www.developerhelpline.com/wp-includes/images/payment-response-1.jpg "Payment Response")
 
 This completes the integration of PayPal payment gateway in Ionic platform.
