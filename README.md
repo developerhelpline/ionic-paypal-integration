@@ -243,7 +243,7 @@ $ ionic cordova run android
 
 The final command will run the app on either default emulator, or an android device attached to your system. Once you click the **Pay with PayPal** button, you will see the PayPal payment screens
 
-[![PayPal payment options screen](https://www.developerhelpline.com/wp-includes/images/PayPal-payment-options-screen-1.jpg "PayPal payment options screen")](https://www.developerhelpline.com/wp-includes/images/PayPal-payment-options-screen-1.jpg "PayPal payment options screen")
+[![PayPal payment options screen](https://www.developerhelpline.com/wp-content/uploads/2020/02/PayPal-payment-options-screen-1.jpg "PayPal payment options screen")](https://www.developerhelpline.com/wp-content/uploads/2020/02/PayPal-payment-options-screen-1.jpg "PayPal payment options screen")
 
 You can choose to
 - **Pay with PayPal** —  using your PayPal account, OR
@@ -253,11 +253,11 @@ You can choose to
 
 You will need to login to your **Sandbox Account** to make a payment (because, remember, you are in a sandbox environment)
 
-[![Sign in to your sandbox account to make test payments](https://www.developerhelpline.com/wp-includes/images/Sign-in-to-your-sandbox-account-to-make-test-payments-1.jpg "Sign in to your sandbox account to make test payments")](https://www.developerhelpline.com/wp-includes/images/Sign-in-to-your-sandbox-account-to-make-test-payments-1.jpg "Sign in to your sandbox account to make test payments")
+[![Sign in to your sandbox account to make test payments](https://www.developerhelpline.com/wp-content/uploads/2020/02/Sign-in-to-your-sandbox-account-to-make-test-payments-1.jpg "Sign in to your sandbox account to make test payments")](https://www.developerhelpline.com/wp-content/uploads/2020/02/Sign-in-to-your-sandbox-account-to-make-test-payments-1.jpg "Sign in to your sandbox account to make test payments")
 
 Once you are logged in, you’ll see the checkout options
 
-[![Payment options in your sandbox account](https://www.developerhelpline.com/wp-includes/images/Payment-options-in-your-sandbox-account-1.jpg "Payment options in your sandbox account")](https://www.developerhelpline.com/wp-includes/images/Payment-options-in-your-sandbox-account-1.jpg "Payment options in your sandbox account")
+[![Payment options in your sandbox account](https://www.developerhelpline.com/wp-content/uploads/2020/02/Payment-options-in-your-sandbox-account-1.jpg "Payment options in your sandbox account")](https://www.developerhelpline.com/wp-content/uploads/2020/02/Payment-options-in-your-sandbox-account-1.jpg "Payment options in your sandbox account")
 
 Select one option, and pay for the dummy amount.
 
@@ -265,14 +265,14 @@ Select one option, and pay for the dummy amount.
 
 In this case, your app's camera will open up to scan your card.
 
-[![Scan your card](https://www.developerhelpline.com/wp-includes/images/Scan-your-card.jpg "Scan your card")](https://www.developerhelpline.com/wp-includes/images/Scan-your-card.jpg "Scan your card")
+[![Scan your card](https://www.developerhelpline.com/wp-content/uploads/2020/02/Scan-your-card.jpg "Scan your card")](https://www.developerhelpline.com/uploads/2020/02/Scan-your-card.jpg "Scan your card")
 
 Once it is done scanning, it will confirm the card number, expiry date and ask for your CVV details etc. Lastly, it’ll show you a confirmation screen, and you proceed to pay the amount.
 
-[![Confirm payment with PayPal card payment](https://www.developerhelpline.com/wp-includes/images/Confirm-payment-with-PayPal-card-payment-1.jpg "Confirm payment with PayPal card payment")](https://www.developerhelpline.com/wp-includes/images/Confirm-payment-with-PayPal-card-payment-1.jpg "Confirm payment with PayPal card payment")
+[![Confirm payment with PayPal card payment](https://www.developerhelpline.com/wp-content/uploads/2020/02/Confirm-payment-with-PayPal-card-payment-1.jpg "Confirm payment with PayPal card payment")](https://www.developerhelpline.com/wp-content/uploads/2020/02/Confirm-payment-with-PayPal-card-payment-1.jpg "Confirm payment with PayPal card payment")
 
 In both payment cases, you will receive a successful payment response similar to the one shown earlier in **Step 3**, or like the following
 
-[![Payment Response](https://www.developerhelpline.com/wp-includes/images/payment-response-1.jpg "Payment Response")](https://www.developerhelpline.com/wp-includes/images/payment-response-1.jpg "Payment Response")
+[![Payment Response](https://www.developerhelpline.com/wp-content/uploads/2020/02/payment-response-1.jpg "Payment Response")](https://www.developerhelpline.com/wp-content/uploads/2020/02/payment-response-1.jpg "Payment Response")
 
 This completes the integration of PayPal payment gateway in Ionic platform.
