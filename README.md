@@ -20,15 +20,15 @@ So, in other words — If you make Local apps in Android, you code in Java. 
 
 Ionic 4 can make a wide assortment of apps, and subsequently a wide assortment of installment portals can be actualized in Ionic 4 apps. The well known ones are PayPal, Stripe, Braintree, in-app buy etc.
 
-PayPal can be coordinates in websites as well as portable apps. There are diverse ways of integration of PayPal SDK. In this web journal we’ll learn how to coordinated PayPal installment portal in Ionic 4 apps and Ionic 4 PWA.
+PayPal can be coordinates in websites as well as portable apps. There are diverse ways of integration of PayPal SDK. In this web journal we’ll learn how to coordinated PayPal installment portal in Ionic 4 apps.
 
-[![Ionic 4 PayPal payment integration — for Apps](https://www.developerhelpline.com/wp-includes/images/ionic-paypal-1.jpeg "Ionic 4 PayPal payment integration — for Apps")](https://www.developerhelpline.com/wp-includes/images/ionic-paypal-1.jpeg "Ionic 4 PayPal payment integration — for Apps")
+[![Ionic 4 PayPal payment integration — for Apps](https://www.developerhelpline.com/wp-content/uploads/2020/02/ionic-paypal-1.jpeg "Ionic 4 PayPal payment integration — for Apps")](https://www.developerhelpline.com/wp-content/uploads/2020/02/ionic-paypal-1.jpeg "Ionic 4 PayPal payment integration — for Apps")
 
 We are going learn how to actualize Paypal installments for an Ionic 4 versatile app. We are able break down the post in these steps:
 
 **Step 1** —  Creating an Ionic 4 app. We are going utilize the Ionic 4 clear starter.
 
-**Step 2**  —  Make a PayPal designer account and arrange it for app and PWA integration.
+**Step 2**  —  Make a PayPal designer account and arrange it for app.
 
 **Step 3**  —  Utilize Ionic Native plugin for PayPal to empower installment in versatile apps.
 
@@ -50,7 +50,7 @@ This creates your app with title `ionic-paypal-integration` and blank template.
 
 With minor alterations, my homepage looks like this.
 
-[![Paypal payment homepage](https://www.developerhelpline.com/wp-includes/images/paypal-payment-homepage-1.jpg "Paypal payment homepage")](https://www.developerhelpline.com/wp-includes/images/paypal-payment-homepage-1.jpg "Paypal payment homepage")
+[![Paypal payment homepage](https://www.developerhelpline.com/wp-content/uploads/2020/02/paypal-payment-homepage-1.jpg "Paypal payment homepage")](https://www.developerhelpline.com/wp-content/uploads/2020/02/paypal-payment-homepage-1.jpg "Paypal payment homepage")
 
 ## Step 2 — Configure a PayPal developer account
 
@@ -64,11 +64,11 @@ To obtain your Sandbox credentials follow the steps below:
 
 3. Go to [My Apps & Credentials](https://developer.paypal.com/developer/applications/ "My Apps & Credentials") and create an app. This is the app associated with your payments. A PayPal account can associate multiple such apps with it (you can redirect money from multiple mobile or web-apps in a single PayPal account).
 
-[![Create new app in PayPal account](https://www.developerhelpline.com/wp-includes/images/paypal-my-accounts-1.jpg "Create new app in PayPal account")](https://www.developerhelpline.com/wp-includes/images/paypal-my-accounts-1.jpg "Create new app in PayPal account")
+[![Create new app in PayPal account](https://www.developerhelpline.com/wp-content/uploads/2020/02/paypal-my-accounts-1.jpg "Create new app in PayPal account")](https://www.developerhelpline.com/wp-content/uploads/2020/02/paypal-my-accounts-1.jpg "Create new app in PayPal account")
 
 Also note down your Client ID from the app details. This is mostly what you need to integrate PayPal in your app and test payments.
 
-[![App details contain your Sandbox and Live client ID and secrets](https://www.developerhelpline.com/wp-includes/images/get-client-id-1.jpg "App details contain your Sandbox and Live client ID and secrets")](https://www.developerhelpline.com/wp-includes/images/get-client-id-1.jpg "App details contain your Sandbox and Live client ID and secrets")
+[![App details contain your Sandbox and Live client ID and secrets](https://www.developerhelpline.com/wp-content/uploads/2020/03/get-client-id.jpg "App details contain your Sandbox and Live client ID and secrets")](https://www.developerhelpline.com/wp-content/uploads/2020/03/get-client-id.jpg "App details contain your Sandbox and Live client ID and secrets")
 
 ## Step 3 — Enable PayPal payments in mobile app
 
@@ -88,11 +88,11 @@ This will install PayPal plugin. Import **PayPal** into your component using
 import { PayPal, PayPalPayment, PayPalConfiguration } from '@ionic-native/paypal/ngx';
 ```
 
-[![Import PayPal in home.page.ts file](https://www.developerhelpline.com/wp-includes/images/Import-PayPal-in-homepage-ts-file-1.jpg "Import PayPal in home.page.ts file")](https://www.developerhelpline.com/wp-includes/images/Import-PayPal-in-homepage-ts-file-1.jpg "Import PayPal in home.page.ts file")
+[![Import PayPal in home.page.ts file](https://www.developerhelpline.com/wp-content/uploads/2020/02/Import-PayPal-in-homepage-ts-file-1.jpg "Import PayPal in home.page.ts file")](https://www.developerhelpline.com/wp-includes/images/Import-PayPal-in-homepage-ts-file-1.jpg "Import PayPal in home.page.ts file")
 
 You will also need to include `PayPal` in the list of providers in your `app.module.ts` file.
 
-[![Import PayPal in your app.module.ts](https://www.developerhelpline.com/wp-includes/images/Import-PayPal-in-your-app-module-ts-file-1.jpg "Import PayPal in your app.module.ts")](https://www.developerhelpline.com/wp-includes/images/Import-PayPal-in-your-app-module-ts-file-1.jpg "Import PayPal in your app.module.ts")
+[![Import PayPal in your app.module.ts](https://www.developerhelpline.com/wp-content/uploads/2020/02/Import-PayPal-in-your-app-module-ts-file-1.jpg "Import PayPal in your app.module.ts")](https://www.developerhelpline.com/wp-content/uploads/2020/02/Import-PayPal-in-your-app-module-ts-file-1.jpg "Import PayPal in your app.module.ts")
 
 ### PayPal payment function
 
