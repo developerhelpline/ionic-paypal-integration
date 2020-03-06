@@ -171,7 +171,7 @@ Notice the `PayPalEnvironmentSandbox` parameter. This is used for Sandbox enviro
 
 Also notice, for the sake of a sample, we have taken `PaymentAmount` and `currency` as static in the logic, but these can be easily dynamic as per your app's requirement.
 
-[![Static amount and currency for sample purpose](https://www.developerhelpline.com/wp-includes/images/Static-amount-and-currency-for-sample-purpose-1.jpg "Static amount and currency for sample purpose")](https://www.developerhelpline.com/wp-includes/images/Static-amount-and-currency-for-sample-purpose-1.jpg "Static amount and currency for sample purpose")
+[![Static amount and currency for sample purpose](https://www.developerhelpline.com/wp-content/uploads/2020/02/Static-amount-and-currency-for-sample-purpose-1.jpg "Static amount and currency for sample purpose")](https://www.developerhelpline.com/wp-content/uploads/2020/02/Static-amount-and-currency-for-sample-purpose-1.jpg "Static amount and currency for sample purpose")
 
 Once payment is done, PayPal SDK will return a response. A sample sandbox response is shown in the gist above. One can use this response to show appropriate *Toast* or *Alert* to app users.
 
@@ -246,8 +246,8 @@ The final command will run the app on either default emulator, or an android dev
 [![PayPal payment options screen](https://www.developerhelpline.com/wp-includes/images/PayPal-payment-options-screen-1.jpg "PayPal payment options screen")](https://www.developerhelpline.com/wp-includes/images/PayPal-payment-options-screen-1.jpg "PayPal payment options screen")
 
 You can choose to
-- **Pay with PayPal ** —  using your PayPal account, OR
-- **Pay with Card ** —  This will use your's device's camera to help read your credit card (to avoid typing your card number, expiry date etc)
+- **Pay with PayPal** —  using your PayPal account, OR
+- **Pay with Card** —  This will use your's device's camera to help read your credit card (to avoid typing your card number, expiry date etc)
 
 #### 1. Pay with PayPal
 
