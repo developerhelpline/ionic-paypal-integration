@@ -1,5 +1,5 @@
 # Ionic 4 PayPal Payment Integration — for Apps
-Ionic 4 with Paypal integration. App
+Ionic 4 with Paypal integration
 
 ### Table of Contents
 - What is Paypal?
