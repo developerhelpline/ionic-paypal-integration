@@ -36,7 +36,7 @@ We are going learn how to actualize Paypal installments for an Ionic 4 versatile
 
 **Step 5**  —  Configure PayPal web integration with Javascript.
 
-**Step 6**  —  Run the PWA on `ionic serve` to test web payments.
+**Step 6**  —  Run the App on `ionic serve` to test web payments.
 
 ## Step 1  —  Create a basic Ionic 4 app
 
